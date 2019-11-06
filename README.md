@@ -51,7 +51,7 @@ Locate file `plugins.js`. We will add our plugin name to end of the list of the 
     "@arkecosystem/custom-transactions": {}, //our application hook (here we load the plugin/dapp)
 ```
 
-** IMPORTANT **
+**IMPORTANT**
 After you have changed the content of `plugins.js` you need to run `yarn setup` from the `core` root folder. This will pick up your newly registered plugin and build it. 
 
 
