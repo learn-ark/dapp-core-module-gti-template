@@ -1,4 +1,4 @@
-# ARK Core - dApp Installation Setup Steps
+# Reusable ARK Core Module dApp Custom Transaction Implementation Template Skeleton
 
 This is a basic example/template of ARK dApp development, by using our CustomTransaction Logic approach.
 
