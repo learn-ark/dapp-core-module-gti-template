@@ -1,10 +1,10 @@
 {
   "private": true,
-  "name": "@arkecosystem/custom-transactions",
-  "description": "Provides ... for Ark Core",
+  "name": "@learn-ark/dapp-core-module-gti-template",
+  "description": "Provides custom transaction implementation template for ARK Core",
   "version": "0.0.1",
   "contributors": [
-    "Your Name <your@domain.io>"
+    "Kristjan Košič <kristjan@ark.io>"
   ],
   "license": "MIT",
   "main": "dist/index.js",
