@@ -1,6 +1,6 @@
-# Reusable ARK Core Module dApp Custom Transaction Implementation Template Skeleton
+# Template: dApp Custom Transaction Implementation Skeleton
 
-This is a basic example/template of ARK dApp development, by using our CustomTransaction Logic approach.
+This is a basic template of ARK dApp development, by using our CustomTransaction Logic approach.
 
 > This Example is currently operational only on our `core/develop` branch!
 
