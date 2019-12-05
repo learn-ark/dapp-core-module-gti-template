@@ -1,3 +1,4 @@
+![Imgur](https://i.imgur.com/8wiwey2.jpg)
 # Template: dApp Custom Transaction Implementation Skeleton
 
 This is a basic template of ARK dApp development, by using our CustomTransaction Logic approach.
