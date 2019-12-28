@@ -70,9 +70,11 @@ export class BusinessRegistrationTransactionHandler extends Handlers.Transaction
         data: Interfaces.ITransactionData,
         pool: TransactionPool.IConnection,
         processor: TransactionPool.IProcessor,
-    ): Promise<boolean> {
-        if (await this.typeFromSenderAlreadyInPool(data, pool, processor)) {
-            return false;
+    ): Promise<{ type: string, message: string } | null>  {
+
+        const err = await this.typeFromSenderAlreadyInPool(data, pool);
+        if (err !== null) {
+            return err;
         }
 
         const { name }: { name: string } = data.asset.businessData;
@@ -81,12 +83,10 @@ export class BusinessRegistrationTransactionHandler extends Handlers.Transaction
             .filter(tx => tx.type === this.getConstructor().type && tx.asset.businessData.name === name);
 
         if (businessRegistrationsSameNameInPayload.length > 1) {
-            processor.pushError(
-                data,
-                "ERR_CONFLICT",
-                `Multiple business registrations for "${name}" in transaction payload`,
-            );
-            return false;
+            return{
+                type: "ERR_CONFLICT",
+                message: `Multiple business registrations for "${name}" in transaction payload`,
+            };
         }
 
         const businessRegistrationsInPool: Interfaces.ITransactionData[] = Array.from(
@@ -95,12 +95,14 @@ export class BusinessRegistrationTransactionHandler extends Handlers.Transaction
         const containsBusinessRegistrationForSameNameInPool: boolean = businessRegistrationsInPool.some(
             transaction => transaction.asset.businessData.name === name,
         );
-        if (containsBusinessRegistrationForSameNameInPool) {
-            processor.pushError(data, "ERR_PENDING", `Business registration for "${name}" already in the pool`);
-            return false;
+        if (containsBusinessRegistrationForSameNameInPool){
+            return {
+                type: "ERR_PENDING",
+                message: `Business registration for "${name}" already in the pool`,
+            }
         }
 
-        return true;
+        return null;
     }
 
     public async applyToSender(
