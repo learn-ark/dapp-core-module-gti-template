@@ -29,14 +29,10 @@ export class BusinessRegistrationTransaction extends Transactions.Transaction {
                             required: ["name", "website"],
                             properties: {
                                 name: {
-                                    type: "string",
-                                    minLength: 3,
-                                    maxLength: 20,
+                                    $ref: "genericName",
                                 },
                                 website: {
-                                    type: "string",
-                                    minLength: 3,
-                                    maxLength: 20,
+                                    $ref: "uri",
                                 },
                             },
                         },
