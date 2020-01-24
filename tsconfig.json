@@ -1,7 +1,21 @@
 {
-    "extends": "../../tsconfig.json",
+    "extends": "@sindresorhus/tsconfig",
     "compilerOptions": {
-        "outDir": "dist"
+        "outDir": "dist",
+        "alwaysStrict": false,
+        "esModuleInterop": true,
+        "incremental": true,
+        "lib": ["es2018"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noUnusedLocals": true,
+        "noUnusedParameters": false,
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "strict": false,
+        "target": "es2018",
+        "typeRoots": ["node_modules/@types"]
     },
+    "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"],
     "include": ["src/**/**.ts"]
 }

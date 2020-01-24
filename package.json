@@ -21,6 +21,8 @@
     "docs": "../../node_modules/typedoc/bin/typedoc src --out docs",
     "lint": "../../node_modules/tslint/bin/tslint -c ./tslint.json 'src/**/*.ts' '__tests__/**/*.ts' --fix",
     "test": "cross-env CORE_ENV=test jest --runInBand --forceExit",
+    "test:unit": "./node_modules/.bin/jest __tests__/unit --runInBand --forceExit",
+    "test:e2e": "./node_modules/.bin/jest __tests__/e2e --runInBand --forceExit",
     "test:coverage": "cross-env CORE_ENV=test jest --coverage --coveragePathIgnorePatterns='/(defaults.ts|index.ts)$' --runInBand --forceExit",
     "test:debug": "cross-env CORE_ENV=test node --inspect-brk ../../node_modules/.bin/jest --runInBand",
     "test:watch": "cross-env CORE_ENV=test jest --runInBand --watch",
@@ -37,6 +39,7 @@
     "bytebuffer": "^5.0.1"
   },
   "devDependencies": {
+    "@arkecosystem/core-utils": "^2.6.0-next.2",
     "@sindresorhus/tsconfig": "^0.4.0",
     "@types/jest": "^24.0.15",
     "@types/node": "^12.6.2",
