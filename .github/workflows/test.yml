@@ -43,12 +43,12 @@ jobs:
                   ref: develop
             - uses: actions/checkout@v2
               with:
-                  path: plugins/dapp-custom-transaction-example
+                  path: plugins/dapp-core-module-gti-template
             - name: Find and Replace
               uses: jacobtomlinson/gha-find-replace@master
               with:
                   find: "\"@arkecosystem/core-snapshots\": {},"
-                  replace: "\"@arkecosystem/core-snapshots\": {}, \"@arkecosystem/custom-transactions\": {},"
+                  replace: "\"@arkecosystem/core-snapshots\": {}, \"@learn-ark/dapp-core-module-gti-template\": {},"
                   include: "__tests__/e2e/lib/config/nodes/.*/plugins.js"
             - name: Use Node.js ${{ matrix.node-version }}
               uses: actions/setup-node@v1
@@ -61,14 +61,14 @@ jobs:
             - name: Wait 180 sec for docker containers to be up and nodes be running and forged a few blocks
               run: sleep 180
             - name: Run tests
-              run: 'cd plugins/dapp-custom-transaction-example && yarn test:e2e'
+              run: 'cd plugins/dapp-core-module-gti-template && yarn test:e2e'
             - name:
               if: failure() && github.event_name == 'schedule'
               uses: JasonEtco/create-an-issue@master
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               with:
-                  filename: plugins/dapp-custom-transaction-example/.github/ISSUE_TEMPLATE.md
+                  filename: plugins/dapp-core-module-gti-template/.github/ISSUE_TEMPLATE.md
             - name: Output results - node0
               if: always()
               run: docker logs config_core0_1
