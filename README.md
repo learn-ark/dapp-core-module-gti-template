@@ -1,6 +1,8 @@
 ![Imgur](https://i.imgur.com/8wiwey2.jpg)
 # Template: dApp Custom Transaction Implementation Skeleton
 
+![Test](https://github.com/learn-ark/dapp-core-module-gti-template/workflows/Test/badge.svg)
+
 This is a basic template of ARK dApp development, by using our CustomTransaction Logic approach.
 
 > This Example is currently operational only on our `core/develop` branch!
