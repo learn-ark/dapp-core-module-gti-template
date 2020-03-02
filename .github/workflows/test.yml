@@ -40,7 +40,7 @@ jobs:
             - uses: actions/checkout@v2
               with:
                   repository: ArkEcosystem/core
-                  ref: develop
+                  ref: master
             - uses: actions/checkout@v2
               with:
                   path: plugins/dapp-core-module-gti-template
