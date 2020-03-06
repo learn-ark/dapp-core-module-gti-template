@@ -91,11 +91,10 @@ curl --request POST \
                                 "fee": "5000000000",
                                 "amount": "0",
                                 "asset":
-                                        { "businessData": { "name": "google", "website": "www.google.com" } },
-                                "signature":
-                                 "809dac6e3077d6ae2083b353b6020badc37195c286079d466bb1d6670ed4e9628a5b5d0a621801e2763aae5add41905036ed8d21609ed9ddde9f941bd066833c",
-                                "id":
-                                 "b567325019edeef0ce5a1134af0b642a54ed2a8266a406e1a999f5d590eb5c3c" }
+                                        { "businessData": { "name": "google", "website": "http://www.google.com" } },
+                                "signature": "96583d6e4dcd9f35ceee38d37ba2e578a24a32bca2bf106f30e496840842f95e86aab471503852d097797bf2a14fbabd97a380b36b2e7fc20ba7d97e19175b48",
+                                "id": "a6270e6e76093422fddd38ee3bad989f2b1eff8d32d3f5f6417ab0bc10da6e16"
+                        }
                 ]
         }'
 ```
@@ -105,8 +104,8 @@ You should receive a response similar to this:
 ```json
 {
     "data": {
-        "accept": ["b567325019edeef0ce5a1134af0b642a54ed2a8266a406e1a999f5d590eb5c3c"],
-        "broadcast": ["b567325019edeef0ce5a1134af0b642a54ed2a8266a406e1a999f5d590eb5c3c"],
+        "accept": ["a6270e6e76093422fddd38ee3bad989f2b1eff8d32d3f5f6417ab0bc10da6e16"],
+        "broadcast": ["a6270e6e76093422fddd38ee3bad989f2b1eff8d32d3f5f6417ab0bc10da6e16"],
         "excess": [],
         "invalid": []
     }
