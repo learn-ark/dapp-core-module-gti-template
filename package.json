@@ -31,15 +31,15 @@
   },
   "dependencies": {
       "@arkecosystem/core-container": "2.6.27",
-      "@arkecosystem/core-event-emitter": "2.6.25",
-      "@arkecosystem/core-interfaces": "2.6.25",
-      "@arkecosystem/core-state": "2.6.25",
-      "@arkecosystem/core-transactions": "2.6.25",
-      "@arkecosystem/crypto": "2.6.25",
+      "@arkecosystem/core-event-emitter": "2.6.27",
+      "@arkecosystem/core-interfaces": "2.6.27",
+      "@arkecosystem/core-state": "2.6.27",
+      "@arkecosystem/core-transactions": "2.6.27",
+      "@arkecosystem/crypto": "2.6.27",
     "bytebuffer": "5.0.1"
   },
   "devDependencies": {
-    "@arkecosystem/core-utils": "2.6.25",
+    "@arkecosystem/core-utils": "2.6.27",
     "@sindresorhus/tsconfig": "0.7.0",
     "@types/jest": "25.1.4",
     "@types/node": "12.12.29",
