@@ -50,7 +50,7 @@
     "ts-jest": "25.2.1",
     "jest": "25.1.0",
     "jest-extended": "0.11.5",
-    "regenerator-runtime": "0.13.3",
+    "regenerator-runtime": "0.13.5",
     "npm-check-updates": "4.0.4",
     "cross-env": "7.0.2",
     "del-cli": "3.0.0"
