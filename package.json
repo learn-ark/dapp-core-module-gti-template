@@ -30,12 +30,12 @@
     "updates": "../../node_modules/npm-check-updates/bin/npm-check-updates -a"
   },
   "dependencies": {
-      "@arkecosystem/core-container": "2.6.30",
-      "@arkecosystem/core-event-emitter": "2.6.30",
-      "@arkecosystem/core-interfaces": "2.6.30",
-      "@arkecosystem/core-state": "2.6.30",
-      "@arkecosystem/core-transactions": "2.6.30",
-      "@arkecosystem/crypto": "2.6.30",
+      "@arkecosystem/core-container": "2.6.31",
+      "@arkecosystem/core-event-emitter": "2.6.31",
+      "@arkecosystem/core-interfaces": "2.6.31",
+      "@arkecosystem/core-state": "2.6.31",
+      "@arkecosystem/core-transactions": "2.6.31",
+      "@arkecosystem/crypto": "2.6.31",
     "bytebuffer": "5.0.1"
   },
   "devDependencies": {
