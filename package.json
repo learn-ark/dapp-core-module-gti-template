@@ -42,7 +42,7 @@
     "@arkecosystem/core-utils": "2.6.30",
     "@sindresorhus/tsconfig": "0.7.0",
     "@types/jest": "25.1.4",
-    "@types/node": "12.12.30",
+    "@types/node": "12.12.31",
     "tslint": "6.1.0",
     "tslint-config-prettier": "1.18.0",
     "typescript": "3.8.3",
