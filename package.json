@@ -43,7 +43,7 @@
     "@sindresorhus/tsconfig": "0.7.0",
     "@types/jest": "25.1.4",
     "@types/node": "12.12.34",
-    "tslint": "6.1.0",
+    "tslint": "6.1.1",
     "tslint-config-prettier": "1.18.0",
     "typescript": "3.8.3",
     "typedoc": "0.17.3",
