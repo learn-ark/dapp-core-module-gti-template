@@ -39,7 +39,7 @@
     "bytebuffer": "5.0.1"
   },
   "devDependencies": {
-    "@arkecosystem/core-utils": "2.6.31",
+    "@arkecosystem/core-utils": "2.6.34",
     "@sindresorhus/tsconfig": "0.7.0",
     "@types/jest": "25.2.1",
     "@types/node": "12.12.37",
