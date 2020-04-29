@@ -30,12 +30,12 @@
     "updates": "../../node_modules/npm-check-updates/bin/npm-check-updates -a"
   },
   "dependencies": {
-      "@arkecosystem/core-container": "2.6.31",
-      "@arkecosystem/core-event-emitter": "2.6.31",
-      "@arkecosystem/core-interfaces": "2.6.31",
-      "@arkecosystem/core-state": "2.6.31",
-      "@arkecosystem/core-transactions": "2.6.31",
-      "@arkecosystem/crypto": "2.6.31",
+      "@arkecosystem/core-container": "2.6.34",
+      "@arkecosystem/core-event-emitter": "2.6.34",
+      "@arkecosystem/core-interfaces": "2.6.34",
+      "@arkecosystem/core-state": "2.6.34",
+      "@arkecosystem/core-transactions": "2.6.34",
+      "@arkecosystem/crypto": "2.6.34",
     "bytebuffer": "5.0.1"
   },
   "devDependencies": {
@@ -48,7 +48,7 @@
     "typescript": "3.8.3",
     "typedoc": "0.17.6",
     "ts-jest": "25.4.0",
-    "jest": "25.4.0",
+    "jest": "25.5.0",
     "jest-extended": "0.11.5",
     "regenerator-runtime": "0.13.5",
     "npm-check-updates": "4.1.2",
