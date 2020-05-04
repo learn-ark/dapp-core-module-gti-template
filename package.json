@@ -35,7 +35,7 @@
       "@arkecosystem/core-interfaces": "2.6.34",
       "@arkecosystem/core-state": "2.6.34",
       "@arkecosystem/core-transactions": "2.6.34",
-      "@arkecosystem/crypto": "2.6.34",
+      "@arkecosystem/crypto": "2.6.36",
     "bytebuffer": "5.0.1"
   },
   "devDependencies": {
