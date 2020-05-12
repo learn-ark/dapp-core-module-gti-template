@@ -30,16 +30,16 @@
     "updates": "../../node_modules/npm-check-updates/bin/npm-check-updates -a"
   },
   "dependencies": {
-      "@arkecosystem/core-container": "2.6.36",
-      "@arkecosystem/core-event-emitter": "2.6.36",
-      "@arkecosystem/core-interfaces": "2.6.36",
-      "@arkecosystem/core-state": "2.6.36",
-      "@arkecosystem/core-transactions": "2.6.36",
-      "@arkecosystem/crypto": "2.6.36",
+      "@arkecosystem/core-container": "2.6.37",
+      "@arkecosystem/core-event-emitter": "2.6.37",
+      "@arkecosystem/core-interfaces": "2.6.37",
+      "@arkecosystem/core-state": "2.6.37",
+      "@arkecosystem/core-transactions": "2.6.37",
+      "@arkecosystem/crypto": "2.6.37",
     "bytebuffer": "5.0.1"
   },
   "devDependencies": {
-    "@arkecosystem/core-utils": "2.6.36",
+    "@arkecosystem/core-utils": "2.6.37",
     "@sindresorhus/tsconfig": "0.7.0",
     "@types/jest": "25.2.1",
     "@types/node": "12.12.38",
