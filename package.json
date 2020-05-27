@@ -34,7 +34,7 @@
       "@arkecosystem/core-event-emitter": "2.6.37",
       "@arkecosystem/core-interfaces": "2.6.37",
       "@arkecosystem/core-state": "2.6.37",
-      "@arkecosystem/core-transactions": "2.6.37",
+      "@arkecosystem/core-transactions": "2.6.38",
       "@arkecosystem/crypto": "2.6.37",
     "bytebuffer": "5.0.1"
   },
