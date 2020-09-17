@@ -32,7 +32,7 @@
   "dependencies": {
       "@arkecosystem/core-container": "2.6.54",
       "@arkecosystem/core-event-emitter": "2.6.54",
-      "@arkecosystem/core-interfaces": "2.6.54",
+      "@arkecosystem/core-interfaces": "2.6.57",
       "@arkecosystem/core-state": "2.6.54",
       "@arkecosystem/core-transactions": "2.6.54",
       "@arkecosystem/crypto": "2.6.54",
