@@ -52,7 +52,7 @@
     "jest-extended": "0.11.5",
     "regenerator-runtime": "0.13.7",
     "npm-check-updates": "9.0.2",
-    "cross-env": "7.0.2",
+    "cross-env": "7.0.3",
     "del-cli": "3.0.1"
   },
     "jest": {
